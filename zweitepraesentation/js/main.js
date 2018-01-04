@@ -25,22 +25,6 @@ toggleAngledOverlay = function() {
       flag = false;
     }, 100);
   });
-
-  var timer2, el2 = $('.venetians span'),
-  flag2 = false;
-
-  $(window).scroll(function() {
-    if (!flag2) {
-      flag2 = true;
-      el2.addClass('scrolling');
-    }
-    clearTimeout(timer2);
-
-    timer2 = setTimeout(function() {
-      el2.removeClass('scrolling');
-      flag2 = false;
-    }, 100);
-  });
 }
 
 loadWebcam = function() {
