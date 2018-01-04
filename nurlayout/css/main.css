@@ -1,0 +1,30 @@
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-feature-settings: "liga", "onum";
+  -moz-font-feature-settings: "liga", "onum";
+  font-feature-settings: "liga", "onum";
+  font-size: 16px;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica, Arial, Roboto, "Segoe UI", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: -webkit-calc(1vmax * 1.25);
+  font-size: calc(1vmax * 1.25);
+  line-height: 1.42em;
+  color: #000;
+}
+
+/*# sourceMappingURL=main.css.map */
